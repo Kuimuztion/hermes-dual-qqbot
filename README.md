@@ -10,7 +10,7 @@
 
 | 维度 | 配置与技术选型 | 说明 |
 | :--- | :--- | :--- |
-| **操作系统** | **Fedora x86_64** (Linux 6.x) | 宿主采用多用户沙箱隔离 (`aemeath:1000` 与 `denia:1001`) |
+| **操作系统** | **Fedora x86_64** (Linux 7.x) | 宿主采用多用户沙箱隔离 (`aemeath:1000` 与 `denia:1001`) |
 | **通讯接入** | **腾讯官方 QQBot** (QQ Open Platform) | WebSocket 长连接事件流 + OpenAPI v2，双机器人独立 AppID |
 | **智能体框架** | **Hermes Agent** | 本地多会话网关 (Gateway)、状态机与自主工具调用引擎 |
 | **核心推理模型**| **Gemini 3.8 Flash** (`gemini-3.8-flash`) | 高响应速度、强指令遵循与长上下文推理 |
